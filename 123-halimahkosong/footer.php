@@ -1,7 +1,7 @@
 <footer>
-<p>&copy; <?php echo date('Y'); ?> Universitas Trunojoyo Madura. All rights reserved.</p>
-    <p>Alamat: Jl. Raya Telang PO Box 2 Kamal Bangkalan Madura, Indonesia</p>
-    <p>Email: info@trunojoyo.ac.id | Telepon: (031) 123-4567</p>
+<p>&copy; <?php echo date('Y'); ?> Nama Institusi. All rights reserved.</p>
+<p>Alamat: Jl. Contoh No. 123, Kota Contoh, Negara</p>
+<p>Email: info@institusi.com | Telepon: (021) 123-4567</p>
 </footer>
 <?php wp_footer(); ?>
 </body>
