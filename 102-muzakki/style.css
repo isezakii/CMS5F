@@ -1,0 +1,166 @@
+
+/*
+
+Theme Name: My Theme
+
+Theme URI: http://example.com/my-theme
+
+Author: Muzakki
+
+Author URI: http://example.com
+
+Description: Deskripsi singkat tentang tema
+
+Version: 1.0
+
+*/
+
+/* General Styling */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #6439FF;
+  color: #FFF4EA;
+  padding: 1rem 0;
+  text-align: bold;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Style for the website logo */
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Style for the navigation menu */
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style for the content area */
+.content {
+  padding: 2rem;
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Style for the footer links */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style for the social media icons */
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style for the responsive design */
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    text-align: center;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 0.5rem 0;
+  }
+}
